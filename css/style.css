@@ -8,7 +8,7 @@ a{
     background-color: #f8f9fa!important;
 }
 .bloc-title{
-    margin-top: 7rem!important;
+    margin-top: 8rem!important;
 }
 #titre-accueil{
     font-family:Titillium , sans-serif!important;
@@ -95,3 +95,32 @@ a{
 .icon_footer:hover{
     color:#141c3a!important;
 }
+.bcolor{
+    border-color:rgb(0 0 0 / 0%)!important;
+}
+
+
+@media (max-width: 767.98px) { 
+    .card_icons{
+        float: left;
+        width: 50%;
+    }
+    #titre_blanc {
+        margin-bottom: 0!important;
+        margin-top: 1rem!important;
+    }
+    #btn_appelcontact{
+        margin-top: 1rem!important;
+        margin-bottom: 1rem!important;
+    }
+    #text_appelcontact{
+        margin-top: 1.5rem!important;
+    }
+    .img_perfil{
+        width: 60%!important;
+    }
+    .bloc_text{
+        margin: 2rem 0 2rem 0!important;
+
+    }
+ }
