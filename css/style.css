@@ -21,7 +21,7 @@ a{
     font-family:Titillium , sans-serif!important;
     font-weight: 800;
     color: #141c3a !important;
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 #titre_blanc{
     font-family:Titillium , sans-serif!important;
@@ -98,7 +98,25 @@ a{
 .bcolor{
     border-color:rgb(0 0 0 / 0%)!important;
 }
-
+.carie_mobile{
+    display: none;
+}
+.color_text{
+    color: #ffff !important;
+}
+#img_position{
+    margin-bottom: -3.25rem!important;
+}
+#btn_contact{
+    color: #141c3a !important;
+    border-color: #5be9b9 !important;
+    background-color: #5be9b9;
+}
+#btn_contact:hover{
+    color: #fff !important;
+    border-color: #5be9b9 !important;
+    background-color: #141c3a;
+}
 
 @media (max-width: 767.98px) { 
     .card_icons{
@@ -121,6 +139,16 @@ a{
     }
     .bloc_text{
         margin: 2rem 0 2rem 0!important;
+        padding: 0 2rem 0 2rem!important;
 
+    }
+    .centered_mobile{
+        text-align: center!important;
+    }
+    .carie_mobile{
+        display: block;
+    }
+    .carie_desktop{
+        display: none;
     }
  }
