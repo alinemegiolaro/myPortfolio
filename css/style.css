@@ -54,6 +54,7 @@ a{
     border-color: #7510f7 !important;
     background-color: #fff;
     font-weight: 500;
+    margin-bottom: 1rem;
 }
 #nav_btn:hover{
     color: #fff !important;
@@ -69,6 +70,9 @@ a{
 #section_1{
     margin: 0 auto!important;
     padding: 1rem;
+}
+.card-text{
+    margin-bottom: 2rem;
 }
 .float_right{
     float: right;
@@ -132,7 +136,7 @@ a{
     /* The width is the width of the web page */
 }
 
-@media (max-width: 767.98px) { 
+@media only screen and (max-width: 991px) { 
     .card_icons{
         float: left;
         width: 50%;
@@ -164,5 +168,23 @@ a{
     }
     .carie_desktop{
         display: none;
+    }
+ }
+ @media only screen and (max-width: 991px) and (min-width: 768px){
+    .bloc_text_propos{
+        width: 100%!important;
+        margin-top: 2rem!important;
+    }
+    .bloc_img_propos{
+        width: 100%!important;
+        text-align: center!important;
+    }
+    .bloc_img_proje{
+        width: 100%!important;
+        text-align: center!important;
+    }
+    .bloc_text_proje{
+        width: 100%!important;
+        margin-top: 2rem!important;
     }
  }
