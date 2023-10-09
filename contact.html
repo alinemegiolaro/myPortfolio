@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,6 @@
     <title>Contact</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
   <nav class="navbar navbar-expand-lg static-top fixed-top ">
@@ -45,29 +45,29 @@
       </div>
 
       <section class=" mycolor">
-          <form class="container color_text" action="message.html">
-            <div class="row justify-content-center ">
+          <form class="container color_text" action="message.html" >
+              <div class="row justify-content-center ">
 
-              <div class="form-group col-md-5 mt-4 ">
-                <label for="inputNom">Nom *</label>
-                <input type="text" class="form-control" id="inputname" placeholder="" required>
+                <div class="form-group col-md-5 mt-4 ">
+                  <label for="inputNom">Nom *</label>
+                  <input type="text" class="form-control" id="inputname" placeholder="" required>
+                </div>
+
+                <div class="form-group col-md-5 mt-4">
+                  <label for="inputEmail">Courriel *</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="" required>
+                </div>
+            
+              <div class="form-group col-md-10 mt-4">
+                <label for="exampleFormControlTextarea1">Message *</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" required></textarea>
+              </div>
+        
+              <div class="form-group col-md-10 mt-4">
+                <button type="submit" class="btn btn-primary" id="btn_contact" onclick="submitForm()">Envoyer</button>
               </div>
 
-              <div class="form-group col-md-5 mt-4">
-                <label for="inputEmail">Courriel *</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="" required>
-              </div>
-          
-            <div class="form-group col-md-10 mt-4">
-              <label for="exampleFormControlTextarea1">Message *</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" required></textarea>
             </div>
-       
-            <div class="form-group col-md-10 mt-4">
-              <button type="submit" class="btn btn-primary" id="btn_contact">Envoyer</button>
-            </div>
-
-          </div>
         </form>
     </section>
     
