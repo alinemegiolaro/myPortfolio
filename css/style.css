@@ -60,7 +60,7 @@ a {
     font-size: 3rem;
     text-align: center;
     color: #141c3a;
-    animation: colorChange 5s ease infinite; /* Animação da cor do título */
+    /* animation: colorChange 5s ease infinite; Animação da cor do título */
 }
 
 /* Animação para troca de cores */
